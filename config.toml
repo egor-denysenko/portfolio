@@ -11,7 +11,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
-    email                        = "youremail@email.com"   # E-mail address for contact section
+    email                        = "egor.denys0@gmail.com"   # E-mail address for contact section
     # customCSS                  = ["foo.css"]             # Include custom css files placed under assets/
     # customJS                   = ["foo.js"]              # Include custom JavaScript files placed under assets/
     # plausible                  = true                    # Use Plausible analytics (requires an account at Plausible.io)
@@ -19,11 +19,11 @@ DefaultContentLanguage           = "en"                    # Default language fo
     # Configure the home page
     [params.home]
         introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
-        showLatest               = true                    # Show latest blog post summary
+        showLatest               = false                    # Show latest blog post summary
         showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
-        allPostsArchiveFormat    = true                    # show all posts in an archive format
-        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
-        localTime                = true                    # Show your current local time in contact section
+        allPostsArchiveFormat    = true                   # show all posts in an archive format
+        numberOfProjectsToShow   = 6                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
+        localTime                = false                    # Show your current local time in contact section
         timeZone                 = "Europe/Rome"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "it-IT"                 # Language specific format to use
     [params.projects]
@@ -58,11 +58,11 @@ DefaultContentLanguage           = "en"                    # Default language fo
         icon  = "github" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://linkedin.com/"
+        url   = "https://linkedin.com/egor-denysenko"
         icon  = "linkedin-in" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url = "mailto:youremail@email.com"  # For a direct email link, use "mailto:test@example.org".
+        url = "mailto:egor.denysenko@email.com"  # For a direct email link, use "mailto:test@example.org".
         icon = "paper-plane" # icon name without the 'fa-'
         icon_pack = "fas"
 
@@ -106,9 +106,9 @@ DefaultContentLanguage           = "en"                    # Default language fo
         languageCode     = "en-us"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Introduction"
+        title            = "Welcome to my portfolio"
         [languages.en.params]
-            description  = "Web personal portfolio"   # Max 160 characters show in search results
+            description  = "Egor's personal portfolio"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
      #[languages.it]
